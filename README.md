@@ -2,3 +2,6 @@
 STDev's iOS Rx MVVM Template (Swift)
 
 git clone https://github.com/stdevteam/StdevRxMVVMTemplate
+
+
+sh StdevRxMVVMTemplate/setup.sh 
