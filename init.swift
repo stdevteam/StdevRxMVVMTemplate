@@ -131,6 +131,5 @@ print("pod install --project-\(projectName)\n")
 print(shell(args: "pod", "install").output)
 print(shell(args: "mkdir", projectName+".xcodeproj/xcuserdata/\(NSUserName()).xcuserdatad").output)
 print(shell(args: "cp", "-r", projectName+".xcodeproj/xcuserdata/template.xcuserdatad/xcschemes", projectName+".xcodeproj/xcuserdata/\(NSUserName()).xcuserdatad/").output)
-print(shell(args: "rm", "-R", "StdevRxMVVMTemplate/STDevTemplate").output)
 print("Project \(projectName) Created Succesfully\n")
 
